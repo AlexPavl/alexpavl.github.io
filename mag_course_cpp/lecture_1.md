@@ -58,6 +58,7 @@ int (*b)(int);
 b = foo; // function to function pointer
 // Как вы думаете, будет ли тут какой-нибудь side effect?
 volatile std::nullptr_t a = nullptr; int *b; b = a;
+// https://godbolt.org/z/TT7Ebjczf
 ```
 
 Рассмотрим пример:
@@ -146,6 +147,7 @@ std::stringstream ss;
 ss << (ssl ? "https" : "http") << "://" << path << "/" << query;
 // Также можно с помощью введенным в 20-м стандарте format
 auto fmt = std::format("{}://{}/{}", (ssl ? "https" : "http"), path, query);
+// https://godbolt.org/z/GzMh6osYG
 ```
 
 Проблема с строками номер 2:
