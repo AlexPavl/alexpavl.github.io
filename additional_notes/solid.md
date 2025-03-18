@@ -1,10 +1,10 @@
 # SOLID
 SOLID принцип это сет подходов которые стоит применять при проектировании структуры или класса в ООП.
-- Single Responsibility Principle 
-- Open-Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
+- Single Responsibility Principle (делай модули меньше)
+- Open-Closed Principle (делай модули расширяемыми)
+- Liskov Substitution Principle (наследуй правильно/логично)
+- Interface Segregation Principle (делай интерфейсы маленькими)
+- Dependency Inversion Principle (используй интерфейсы а не объекты)
 
 Соответственно название берется из первых букв каждого из принципов.
 
